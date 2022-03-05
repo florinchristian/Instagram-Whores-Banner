@@ -1,0 +1,12 @@
+{
+    "name": "Instagram Whores Banner",
+    "description": "Instagram Whores Banner vanishes all OnlyFans ads in your Instagram feed",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "js": ["background.js"],
+            "matches": ["https://www.instagram.com/"]
+        }
+    ]
+}
